@@ -1,24 +1,23 @@
 ## IOT-BASED WASTEWATER CONTROL SYSTEM USING CHEMICAL DOSING
+## Problem Statement
+Grey water discharged from individual households (such as water from bathrooms, kitchens, and washing areas) often contains high pH levels due to the presence of soaps, detergents, and cleaning chemicals. When this untreated grey water is released into natural water bodies, it can damage aquatic life, affect soil quality, and make the water unsafe for reuse. Currently, monitoring and controlling household wastewater quality is a manual and large-scale responsibility handled mainly by government corporations, which makes real-time monitoring difficult.
 
-Small Description:
+## Motivation
+To reduce environmental damage and distribute responsibility at the individual household level, there is a need for a simple, low-cost, real-time monitoring system that alerts users before harmful wastewater is discharged.
 
+## Proposed Solution
+This project implements an IoT-based Water pH Monitoring System using an ESP32 microcontroller and a pH sensor installed in the household wastewater discharge tank. The pH value of the discharged water is continuously monitored. If the pH exceeds the safe range, an instant alert notification is sent to the user’s mobile phone using Blynk IoT. Upon receiving the alert, the user can neutralize the water by adding readily available materials such as: Hydrochloric acid Dry acid Phosphoric acid White vinegar This reduces the pH to safe levels before discharge.
+
+## Social & Environmental Impact
+Prevents harmful wastewater from entering natural water bodies Encourages individual responsibility for environmental protection Reduces workload on government corporations Enables proactive action instead of post-damage control Supports sustainable water management practices If an alert is repeatedly ignored, the system can help authorities identify unresolved cases and take necessary action.
+
+## Small Description:
 IOT-BASED WASTEWATER CONTROL SYSTEM USING CHEMICAL DOSING is designed to continuously monitor the pH level of wastewater in real time and provide instant alerts when abnormal conditions are detected, ensuring environmental safety and efficient water management.
 
 ## About
 IOT-BASED WASTEWATER CONTROL SYSTEM USING CHEMICAL DOSING is an IoT-based project developed to monitor the acidity and alkalinity of wastewater using real-time sensors and automated alert mechanisms. Wastewater discharged from industries and residential areas can significantly impact the environment if pH levels exceed permissible limits.
-
 Traditional wastewater monitoring methods rely on manual sampling and laboratory testing, which are time-consuming and prone to delays. This project overcomes these limitations by integrating pH sensors, a microcontroller, and cloud-based monitoring to provide continuous observation and instant alerts.
-
-The system detects abnormal pH values and notifies authorities through alerts, enabling timely corrective action. This solution improves efficiency, reduces environmental risks, and supports sustainable wastewater management practices.
-
-## Features
-Real-time monitoring of wastewater pH levels
-Automated alert system for abnormal pH values
-IoT-based data acquisition and cloud integration
-High accuracy and reliability of sensor readings
-Low power consumption and cost-effective design
-Scalable architecture for large-scale deployment
-User-friendly dashboard for visualization of pH data
+The system detects abnormal pH values and notifies authorities through alerts, enabling timely corrective action. This solution improves efficiency, reduces environmental risks, and supports sustainable wastewater management practices
 
 ## Requirements
 * Operating System: Windows 10 / Ubuntu (64-bit)
@@ -40,7 +39,6 @@ User-friendly dashboard for visualization of pH data
 
 ## Results and Impact
 This project significantly improves the efficiency of wastewater quality management by providing continuous and automated monitoring. It reduces dependency on manual testing and enables faster detection of hazardous conditions.
-
 This system helps prevent environmental pollution, protects aquatic life, and ensures compliance with wastewater discharge standards. The project demonstrates the effective use of IoT and sensor technologies in environmental monitoring and lays a strong foundation for smart city and sustainable development applications.
 
 ## Articles published / References
